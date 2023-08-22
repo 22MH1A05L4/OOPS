@@ -1,0 +1,26 @@
+//22MH1A05L4
+
+//Using Public 
+
+#include<iostream>
+using namespace std;
+class Thub{
+	public:
+		string rollno,name,campus;
+		int year;
+		Thub(string r,string n,string ca,int yr){
+		
+		rollno=r;
+		name=n;
+		campus=ca;
+		year=yr;
+	}
+	void display(){
+		cout<< rollno<<" "<<name<<" "<<campus<<endl;
+	}
+};
+int main(){
+	Thub s1("L4"," Dhanush","acoe",2);
+	s1.display();
+	return 0;
+}
